@@ -1,0 +1,119 @@
+\documentclass[]{beamer}
+%\usepackage[MeX]{polski}
+%\usepackage[cp1250]{inputenc}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\beamersetaveragebackground{blue!10}
+\usetheme{Warsaw}
+\usecolortheme[rgb={0.1,0.5,0.7}]{structure}
+\usepackage{beamerthemesplit}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+
+
+\title{Prezentacja o piwie}
+\date{}
+
+\begin{document}
+
+\frame
+{
+\maketitle
+}
+\begin{frame}
+\frametitle{Styl Ipa}
+%Tresc slajdu
+-India Pale Ale (ekstrakt: 12,2-18 Blg, alkohol: 5,0-7,5%)
+-Imperial India Pale Ale (ekstrakt:16,8-21,5 Blg, alkohol: 7,5-10%)
+Styl IPA jest związany z brytyjską potęgą kolonialną. Brytyjczycy odkryli, że chmiel ma właściwości konserwujące i pomaga w transporcie piwa do odległych koloni. Kolor IPA to odcienie od złotego po jasną miedź z delikatną pomarańczą. Jest to klarowne piwo z dość długo utrzymującą się pianą. W smaku IPA odczujemy intensywny moc oraz wyraźną goryczkę chmielową.
+\begin{figure}[hb]
+\centering
+\includegraphics[width=0.5\textwidth]{ipa.jpg}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Styl Stout}
+%Tresc slajdu
+-Stout Klasyczny/Dry Stout (ekstrakt: 9-12,5 Blg, alkohol: 4-5%)
+-Stout Słodki/Milk (Sweet) Stout (ekstrakt:10,7-14,5 Blg, alkohol: 4,0-6,0%)
+-Stout Owsiany/Oatmeal Stout (ekstrakt:12-15,8 Blg, alkohol: 4,2-5,9%)
+-Foreign Extra Stout (ekstrakt:13,8-18,2 Blg, alkohol: 5,5-8%)
+-Imperial Stout/Russian Imperial Stout (ekstrakt:18-27,4 Blg, alkohol: 8-12%)
+Stout jest piwem czarnym, produkowanym z dodatkiem palonego słodu. Posiada gęstą pianę – często w kolorze brązowym. Styl Dry jest w smaku delikatnie kwaśny, natomiast wersja Sweet, jak sama nazwa mówi, dzięki użyciu laktozy jest słodka i mleczna w smaku. Ze względu na nachmielenie oraz nuty palone ze słodów piwo cechuje się wyraźną goryczką.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{stout.jpg}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Styl Witbier}
+%Tresc slajdu
+-Witbier/Wit/Blanche (11-12,9 Blg, alkohol: 4,5-5,5%)
+Witbier jest szczególnym rodzajem piw pszenicznych. Charakteryzuje się dodatkiem niesłodowanej pszenicy w procesie zacieraina, a także sporą ilością przypraw takich jak kolendra czy skórka pomarańczy.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{witbier.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Styl lager}
+%Tresc slajdu
+-Standard Lager/Lekki Lager (7,5-10 Blg, alkohol: 3,2-4,2%)
+-Euro Pale Lager/Pełny Lager (10,1-13,8 Blg, alkohol: 4,7-6%)
+-Euro Strong Lager/Mocny Lager (13,1-20,1 Blg, alkohol: 6-10%)
+Lager Jasny jest najbardziej popularnym piwem na świecie. Oczywiście trójpodział Lagera jest spowodowany zawartością alkoholu w piwie. Kolor od jasnosłomkowego, przez złocisty, aż po bursztynowy. Piwo to jest mocno gazowane i charakteryzuje się niezbyt gęstą pianą. W smaku najmniej wyraziste ze wszystkich gatunków oraz najmniej interesujące.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{lager.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Styl Bock}
+%Tresc slajdu
+Koźlak (Bock) (Ekstrakt: 15,6-17,5 Blg, alkohol: 6,3-7,2%)
+Niemal każda butelka tego stylu piwnego ma na etykiecie kozła. Kolor od jasnomiedzianego do brązowego. Duża gęsta i trwała piana. Smak bardzo słodowy, praktycznie niewyczuwalny jest w nim chmiel.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{bock.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Styl Lambic}
+%Tresc slajdu
+-Lambic (Ekstrakt: 9,8-13,1 Blg, alkohol: 5-6,5%)
+-Gueuze (Ekstrakt: 9,8-14,5 Blg, alkohol: 5-8%)
+-Faro (Ekstrakt 9,8-14,5 Blg, alkohol: 5-8% alk.)
+Lambiki swój smak zawdzięczają dzikim szczepom drożdży. Piwa warzy się z dodatkiem niesłodowanej pszenicy, podobnie jak Witbier. Charakteryzuje się mocnym, owocowym smakiem.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{lambic.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Porter}
+%Tresc slajdu
+Ciemne, mocne piwo górnej fermentacji o barwie od rubinowej do czarnej, pochodzące z Anglii.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{porter.jpg}
+\end{figure}
+\end{frame}
+
+
+\end{document}
